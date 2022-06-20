@@ -1,0 +1,38 @@
+site_name: Hugging Face - Medical & Healthcare resources
+
+nav:
+  - Home: index.md
+
+  - Medical:
+      - medical/introduction.md
+      - medical/datasets.md
+      # - medical/preprocessing.md
+      - medical/models.md
+      - Examples:
+        - medical/examples/introduction.md
+        - medical/examples/pipelines.md
+        - medical/examples/transfer_learning.md
+      - medical/literature.md
+      - medical/resources.md
+
+  - Healthcare: 
+      - healthcare/introduction.md
+      - healthcare/datasets.md
+      # - healthcare/preprocessing.md
+      - healthcare/models.md
+      - Examples:
+        - healthcare/examples/introduction.md
+        - healthcare/examples/pipelines.md
+        - healthcare/examples/transfer_learning.md
+      - healthcare/literature.md
+      - healthcare/resources.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
